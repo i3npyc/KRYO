@@ -382,10 +382,6 @@ body._lock {
   transition: all 0.3s ease-in 0s;
 }
 
-.btn.--blue:hover {
-  background-position: 0 -50px;
-}
-
 .btn.--blue:active {
   -webkit-transform: translateY(2px);
       -ms-transform: translateY(2px);
@@ -403,6 +399,9 @@ body._lock {
   background: linear-gradient(178.89deg, #76f59b 0.95%, #3ed664 120.08%);
   -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
           box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  transition: all 0.9s ease 0s;
 }
 
 .btn.--green:active {
@@ -439,6 +438,9 @@ body._lock {
   margin: 0px 0px 15px 0px;
   height: 70px;
   width: 350px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
 }
 
 .btn._fw {
@@ -1992,6 +1994,9 @@ body.ie ._ibg img {
   -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
           box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
 }
 
 .main-video__link:before {
@@ -2739,6 +2744,10 @@ body.ie ._ibg img {
     transition: all 0.1s ease 0s;
   }
 
+  .btn.--form-question:hover {
+    background-position: 0 -70px;
+  }
+
   .quantity__button:hover::before,
   .quantity__button:hover::after {
     background-color: rgba(0, 0, 0, 0.5);
@@ -2749,6 +2758,14 @@ body.ie ._ibg img {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+  }
+
+  .main-btn-block__btn:hover {
+    background-position: 0 -85px;
+  }
+
+  .main-video__link:hover {
+    background-position: 0 -80px;
   }
 
   .item-us-team:hover {
